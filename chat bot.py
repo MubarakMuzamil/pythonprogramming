@@ -11,9 +11,9 @@ print("hit 5 for other request")
 userinput =int(input("enter your choice:"))
 
 #using if else to process the user input
-if userinput==1:
+if userinput== 1:
     softwareneeded=input("please provide the software name")
-elif userinput ==2:
+elif userinput == 2:
      softwareupdate = input("please provide the software name to be updated")
 elif userinput == 3:
     softwareuninstall = input("please provide the software name to be uninstalled")
