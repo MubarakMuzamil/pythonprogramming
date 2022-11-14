@@ -5,11 +5,11 @@ print("Hit 1 for Pizza")
 print("Hit 2 for Burger")
 print("Hit 3 for Pasta")
 userinput = int(input("enter your choice:"))
-if userinput == 1:
+if userinput ==1:
     print("your pizza will be delivered to your address")
-if userinput == 2:
-    print("your burger will be delivered to your address ")
-if userinput == 3:
+if userinput ==2:
+    print("your burger will be delivered to your address")
+if userinput ==3:
     print("your Pasta will be delivered to your address")
 else:
     print("invalid detail")
